@@ -15,5 +15,6 @@ def create_comment(author,comment_list):
         data["timestamp"]=timestamp
         data["author"]=author
         data["body"]=body
-        comment = Comment(data)
+        comment = Comment(data
+        return comment
     print ("body can't be empty")
