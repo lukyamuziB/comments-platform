@@ -1,9 +1,9 @@
 """get user comment"""
 import datetime
-from .comment import Comment
+from comments import Comment
 def create_comment(author,comment_list):
     """create comment instance"""
-    body=raw_input("please add your comment")
+    body=input("please add your comment")
     timestamp=datetime.now()
     if comment_list:
         id=comment_list[-1]+1
@@ -16,4 +16,9 @@ def create_comment(author,comment_list):
         data["author"]=author
         data["body"]=body
         comment = Comment(data)
-    print "body can't be empty"
+    print ("body can't be empty")
+
+if __name__=="___main__":
+    l=[]
+    author="me"
+    create_comment(author,l)
