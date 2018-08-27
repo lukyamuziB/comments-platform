@@ -1,5 +1,3 @@
-user_list = []
-
 class User(object):
     def __init__(self, data={}):
         self.username = data.get('username')
