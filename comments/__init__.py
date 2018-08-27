@@ -17,8 +17,3 @@ def create_comment(author,comment_list):
         data["body"]=body
         comment = Comment(data)
     print ("body can't be empty")
-
-if __name__=="___main__":
-    l=[]
-    author="me"
-    create_comment(author,l)
