@@ -4,3 +4,6 @@ class User(object):
         self.usermail = data.get('usermail')
         self.userpassword = data.get("userpassword")
         self.permission = data.get('permission')
+
+
+
