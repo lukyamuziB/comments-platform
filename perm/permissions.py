@@ -1,6 +1,6 @@
 class Permission(object):
     """class Permission."""
-    def __init__(self, perm_name,action):
+    def __init__(self, perm_name,  action):
         '''init permission'''
         self.name = perm_name
         self.actions = action
